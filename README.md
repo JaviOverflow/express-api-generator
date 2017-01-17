@@ -1,5 +1,10 @@
 # express-api-generator
 
+In order to use it, you can add the following alias to your .bashrc or .bash_profile
+```bash
+alias apigen='nodejs <path/to/index.js>'
+```
+
 Generate '/projects' endpoint with all methods (POST, GET, UPDATE, DELETE) and its use cases
 ```bash
 $ apigen --name projects --all
